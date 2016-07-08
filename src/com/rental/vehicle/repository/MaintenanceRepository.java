@@ -29,7 +29,7 @@ public class MaintenanceRepository {
 		return maintenance;
 	}
 	@Transactional(readOnly=true)
-	public Maintenance FindById(long id){
+	public Maintenance findById(long id){
 		return em.find(Maintenance.class, id);
 	}
 }

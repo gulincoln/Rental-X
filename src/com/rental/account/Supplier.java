@@ -19,7 +19,7 @@ import lombok.Setter;
 
 @Entity
 @PrimaryKeyJoinColumn(name="id")
-@Getter @Setter @AllArgsConstructor @EqualsAndHashCode(of="id")
+@Getter @Setter @AllArgsConstructor @NoArgsConstructor @EqualsAndHashCode(of="id")
 public class Supplier extends Person{
 	private String nameCompany;
 	

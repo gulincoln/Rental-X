@@ -11,6 +11,7 @@ import com.rental.account.Customer;
 
 @Repository
 public class CustomerRepository {
+	
 	@PersistenceContext
 	private EntityManager em;
 	

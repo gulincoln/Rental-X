@@ -1,28 +1,16 @@
 package com.rental.account;
 
-import java.io.Serializable;
-
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.PrimaryKeyJoinColumn;
 
 import com.rental.commonalities.Address;
 import com.rental.commonalities.ContactInfo;
 import com.rental.commonalities.Person;
-import com.rental.vehicle.Car;
-import com.rental.vehicle.CarType;
 
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
 @Entity
-@PrimaryKeyJoinColumn(name="id")
-@Getter @Setter @AllArgsConstructor @EqualsAndHashCode(of="id")
-public class Customer extends Person implements Serializable{
+@Data
+public class Customer extends Person {
 	
 	private String firstName; 
 	private String lastName;

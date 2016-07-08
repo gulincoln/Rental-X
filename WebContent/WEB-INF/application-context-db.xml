@@ -13,19 +13,11 @@
 		<property name="driverClassName" 
 					value="com.mysql.jdbc.Driver"/>
 		<property name="url" 
-<<<<<<< HEAD
 					value="jdbc:mysql://localhost:3306/rental-x"/>
 		<property name="username" 
 					value="root"/>
 		<property name="password" 
 					value=""/>
-=======
-					value="jdbc:mysql://localhost:3306/rental_x"/>
-		<property name="username" 
-					value="rental_x"/>
-		<property name="password" 
-					value="rental_x"/>
->>>>>>> 829d9ce7f1ac0c147aa6f7f31980ac582420c556
 					
 		<property name="initialSize" value="10"/>			
 		<property name="maxTotal" value="30"/>			

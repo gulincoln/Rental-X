@@ -33,7 +33,7 @@ public class Maintenance implements Serializable{
 	private String description;
 	private StatusCarInMaintenance statusCarInMaintenance;
 	
-	@ManyToOne
+	@ManyToOne(fetch=FetchType.EAGER)
 	private Car car;
 	
 	
