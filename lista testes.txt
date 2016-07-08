@@ -1,0 +1,7 @@
+1 - testar repositorio Customer (X)
+2 - testar repositorio Maintenance (X)
+3 - testar repositorio Car (X)
+4 - testar repositorio Booking
+5 - testar repositorio Rental
+
+
