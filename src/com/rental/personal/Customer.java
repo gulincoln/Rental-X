@@ -5,6 +5,7 @@ import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.PrimaryKeyJoinColumn;
 
+import com.rental.personal.Person;
 import com.rental.personal.aggregates.Address;
 import com.rental.personal.aggregates.ContactInfo;
 

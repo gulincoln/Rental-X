@@ -1,7 +1,7 @@
 #!/bin/bash
 
 user="glrocha"
-pass="Gu%402211x"
+pass=""
 git config --unset-all https.proxy
 git config --unset-all http.proxy
 
