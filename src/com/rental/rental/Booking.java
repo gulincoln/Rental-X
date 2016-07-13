@@ -1,17 +1,18 @@
 package com.rental.rental;
 
-import java.util.Date;
+import java.io.Serializable;
+import java.sql.Date;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.PrimaryKeyJoinColumn;
+
+import lombok.Data;
 
 @Entity
-public class Booking extends RentalVehicle{
-	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private Long id;
+@PrimaryKeyJoinColumn(name="id")
+@Data
+public class Booking extends RentalVehicle implements Serializable{
+	
 	private Date startDate;
 	private int qtdDays;
 }

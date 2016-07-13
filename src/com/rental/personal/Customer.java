@@ -23,9 +23,9 @@ public class Customer extends Person implements Serializable{
 	private String firstName; 
 	private String lastName;
 	
-	public Customer(Address address, ContactInfo contactInfo) {
+	public Customer(Address address, ContactInfo contactInfo, String firstName, String lastName) {
 		super(address,contactInfo);
+		this.firstName=firstName;
+		this.lastName=lastName;
 	}
-	
-	
 }

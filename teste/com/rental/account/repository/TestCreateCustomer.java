@@ -26,10 +26,7 @@ public class TestCreateCustomer {
 		Address address = new Address("Rua Nova", "Jd Novo", "sjc");
 		ContactInfo contact = new ContactInfo("39212121", "admin@admin.com");
 
-		Customer customer = new Customer(address, contact);
-
-		customer.setFirstName("Gustavo");
-		customer.setLastName("Lincoln");
+		Customer customer = new Customer(address, contact, "Gustavo", "Lincoln");
 
 		customerRepository.save(customer);
 

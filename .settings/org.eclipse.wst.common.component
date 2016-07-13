@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="Rental-x">
+    <wb-module deploy-name="Rental-X">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/teste"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="Rental-x"/>
-        <property name="java-output-path" value="/Rental-x/build/classes"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/teste"/>
+        <property name="context-root" value="Rental-X"/>
+        <property name="java-output-path" value="/Rental-X/build/classes"/>
     </wb-module>
 </project-modules>
